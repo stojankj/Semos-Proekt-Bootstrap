@@ -1,0 +1,23 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    color: #5a5a5a;
+}
+
+.img{
+    background-image: url(../../images/banner.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    border-top: 0.4rem solid #5385c1;
+}
+
+.s1_naslov_wrap{
+    padding-top: 6.5rem;
+    padding-bottom: 12.3rem;
+}
+
+.primary-color{
+    color: #5385c1;
+    font-weight:300;
+}
