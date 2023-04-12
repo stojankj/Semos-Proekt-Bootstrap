@@ -1,0 +1,69 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    color: #5a5a5a;
+}
+
+.row{
+    padding-left: 0!important;
+    padding-right: 0!important;
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+.row>*{
+    padding-left: 0!important; 
+    padding-right: 0!important; 
+}
+
+.primary-color{
+    color: #5385c1;
+}
+
+.primary-bg{
+    background-color: #5385c1;
+}
+
+.margin_t{
+    margin-top: 6rem;
+}
+.margin_b{
+    margin-bottom: 6rem;
+}
+
+.container-fluid{
+    padding: 0!important;
+}
+
+.img{
+    background-image: url(../../images/banner.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    border-top: 0.4rem solid #5385c1;
+}
+
+.s1_naslov_wrap{
+    padding-top: 6.5rem;
+    padding-bottom: 12.3rem;
+}
+
+.s2_margin_tb{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.box{
+    width: 21%;
+}
+
+.s3_sliki{
+    width: 48%;
+}
+
+.img-fluid{
+    width: 100%;
+}
+
+.navigacija{
+    position: fixed;
+}
