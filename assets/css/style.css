@@ -67,3 +67,11 @@ body{
 .navigacija{
     position: fixed;
 }
+
+.s1-page3-margintop{
+    margin-top: 10rem;
+}
+
+.li_mar_neg{
+    margin-left: -2rem;
+}
