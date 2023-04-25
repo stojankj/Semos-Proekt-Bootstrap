@@ -2,6 +2,37 @@ body{
     font-family: 'Raleway', sans-serif;
     margin: 0;
     color: #5a5a5a;
+    font-size: 1.1rem;
+}
+
+.row{
+    padding-left: 0!important;
+    padding-right: 0!important;
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+.row>*{
+    padding-left: 0!important; 
+    padding-right: 0!important; 
+}
+
+.primary-color{
+    color: #5385c1;
+}
+
+.primary-bg{
+    background-color: #5385c1;
+}
+
+.margin_t{
+    margin-top: 6rem;
+}
+.margin_b{
+    margin-bottom: 6rem;
+}
+
+.container-fluid{
+    padding: 0!important;
 }
 
 .img{
@@ -21,3 +52,252 @@ body{
     color: #5385c1;
     font-weight:300;
 }
+
+.s2_margin_tb{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.box{
+    width: 21%;
+}
+
+.s3_sliki{
+    width: 48%;
+}
+
+.img-fluid{
+    width: 100%;
+}
+
+.navigacija{
+    position: fixed;
+}
+
+.s1-page3-margintop{
+    margin-top: 10rem;
+}
+
+.li_mar_neg{
+    margin-left: -2rem;
+}
+
+.alt {
+    list-style: none;
+    padding-left: 0;
+}
+
+.hrm{
+    margin: .5rem 0;
+}
+
+.listdecor{
+    text-decoration: none;
+}
+
+.mis{
+    margin-inline-start: 3rem;
+}
+
+.fs-12{
+    font-size: 1.2rem;
+}
+
+.special{
+    background-color: #5385c1;
+    color: #ffffff !important;
+}
+
+.grey {
+    background-color: #5a5a5a;
+    color: #FFF;
+}
+
+.white {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px #9a9a9a;
+    color: #5a5a5a;
+}
+
+.mali {
+    font-size: 0.8rem;
+    padding: 12px 20px;
+    display: inline;
+}
+
+.wide{
+    padding-right: 3rem!important;
+    padding-left: 3rem!important;
+}
+
+.button{ 
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 3rem;
+    padding: 0 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.blckq{
+    border-left: solid 4px hsl(0, 0%, 60%, .3);
+    font-style: italic;
+    margin: 0 0 2rem 0;
+    padding: 0.5rem 0 0.5rem 2rem;
+}
+
+thead{
+    border-style: none!important;
+}
+
+.big{
+    font-size: 1.5rem;
+    padding: .5rem 2rem .5rem 2rem;
+    display: inline;
+}
+
+.fit{
+    padding: 0 4.7rem;
+}
+
+.fps{
+    padding: 0 3.2rem;
+}
+
+.inputw{
+    flex: 0 0 auto;
+    width: 47.666667%;
+}
+
+.selectw{
+    width: 95.5%;
+}
+
+input[type="radio"]{
+    opacity: 0;
+}
+
+input[type="checkbox"]{
+    opacity: 0;
+}
+
+input[type="radio"] + label {
+    text-decoration: none;
+    color: #9a9a9a;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 300;
+    padding-left: 38.5px;
+    padding-right: 12px;
+    position: relative;
+}
+
+input[type="radio"]:checked + label:before {
+    background: #5a5a5a;
+    border-color: #5a5a5a;
+    color: #ffffff;
+    content: '\2713';
+}
+
+input[type="radio"] + label:before {
+    background: hsl(0, 0%, 60%, .1);
+    border: solid 1px hsl(0, 0%, 35%, .1);
+    content: '';
+    display: inline-block;
+    height: 1.65em;
+    left: 0;
+    line-height: 1.6em;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 1.65em;
+    border-radius: 100%;
+}
+
+input[type="checkbox"] + label {
+    text-decoration: none;
+    color: #9a9a9a;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 300;
+    padding-left: 38.5px;
+    padding-right: 12px;
+    position: relative;
+}
+
+input[type="checkbox"]:checked + label:before {
+    background: #5a5a5a;
+    border-color: #5a5a5a;
+    color: #ffffff;
+    content: '\2713';
+}
+
+input[type="checkbox"] + label:before {
+    background: hsl(0, 0%, 60%, .1);
+    border: solid 1px hsl(0, 0%, 35%, .1);
+    content: '';
+    display: inline-block;
+    height: 1.65em;
+    left: 0;
+    line-height: 1.6em;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 1.65em;
+}
+
+.queryf {
+    padding: 0.7rem!important;
+}
+
+.imgw{
+    width: 32.1%;
+}
+
+.image.left {
+    float: left;
+    padding: 0 24px 18px 0;
+    top: 4px;
+    margin: 0;
+    max-width: 40%;
+}
+
+.image.right {
+    float: right;
+    padding: 0 0 18px 24px;
+    top: 4px;
+    margin: 0;
+    max-width: 40%;
+}
+
+.boxx {
+    border: solid 1px hsl(0, 0%, 60%, .3);
+    margin-bottom: 32px;
+    padding: 26px;
+}
+
+.marbot0{
+    margin-bottom: 0;
+}
+
+pre code {
+    display: block;
+    line-height: 1.3;
+    padding: 1em 1.5em;
+    overflow-x: auto;
+}
+
+code {
+    background: rgba(144, 144, 144, 0.075);
+    border-radius: 0;
+    border: solid 1px hsl(0, 0%, 60%, .3);
+    color: #9a9a9a;
+    font-size: 1rem;
+    margin: 0 4px;
+}
+
