@@ -5,6 +5,10 @@ body{
     font-size: 1.1rem;
 }
 
+h3{
+    font-size: 1.8rem;
+}
+
 .row{
     padding-left: 0!important;
     padding-right: 0!important;
@@ -20,8 +24,17 @@ body{
     color: #5385c1;
 }
 
+.marb-2{
+    margin-bottom: 2rem;
+}
+
+
 .primary-bg{
     background-color: #5385c1;
+}
+
+.grey-light{
+    background-color: #9a9a9a;
 }
 
 .margin_t{
@@ -88,7 +101,7 @@ body{
 }
 
 .hrm{
-    margin: .5rem 0;
+    margin: .5rem 3rem .5rem 0;
 }
 
 .listdecor{
@@ -99,14 +112,15 @@ body{
     margin-inline-start: 3rem;
 }
 
+.mt-26{
+    margin-top: 2.6rem;
+}
+
 .fs-12{
     font-size: 1.2rem;
 }
 
-.special{
-    background-color: #5385c1;
-    color: #ffffff !important;
-}
+
 
 .grey {
     background-color: #5a5a5a;
@@ -131,7 +145,6 @@ body{
 }
 
 .button{ 
-    border: none;
     cursor: pointer;
     display: inline-block;
     font-weight: 600;
@@ -164,7 +177,7 @@ thead{
 }
 
 .fps{
-    padding: 0 3.2rem;
+    padding: 0.5rem 3.25rem;
 }
 
 .inputw{
@@ -302,4 +315,54 @@ code {
 
 .btn{
     border-radius: 0;
+}
+
+.borderbox {
+    border: 0.2px solid #7d9cc1!important;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .border-end{
+        border-right: none!important;
+        border-bottom: 0.5px solid #9a9a9a!important;
+    }
+
+    h1{
+        font-size: 3.5rem!important;
+    }
+
+    h3{
+        font-size:2.2rem;
+        margin-bottom: 2rem;
+    }
+
+    p{
+        font-size:1.7rem;
+        margin-bottom: 2rem;
+    }
+
+    .btn{
+        width: 100%;
+        line-height: 2.5;
+    }
+
+    .box{
+        width: 100%;
+    }
+
+    .border-top-none{
+        border-top: none!important;
+    }
+
+    .s3_sliki{
+        width: 100%;
+    }
+
+    .disn{
+        display: none;
+    }
+
+
 }
