@@ -3,10 +3,27 @@ body{
     margin: 0;
     color: #5a5a5a;
     font-size: 1.1rem;
+    line-height: 1.65;
+}
+
+h1{
+    font-size: 3rem;
 }
 
 h3{
     font-size: 1.8rem;
+}
+
+.mt-26{
+    margin-top: 2.7rem;
+}
+
+.marb-2{
+    margin-bottom: 2rem;
+}
+
+.grey-light{
+    background-color: #9a9a9a;
 }
 
 .row{
@@ -24,21 +41,22 @@ h3{
     color: #5385c1;
 }
 
-.marb-2{
-    margin-bottom: 2rem;
+.btnp{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    line-height: 2;
 }
 
+.margin_t6{
+    margin-top: 5rem;
+}
 
 .primary-bg{
     background-color: #5385c1;
 }
 
-.grey-light{
-    background-color: #9a9a9a;
-}
-
 .margin_t{
-    margin-top: 6rem;
+    margin-top: 9rem;
 }
 .margin_b{
     margin-bottom: 6rem;
@@ -61,14 +79,13 @@ h3{
     padding-bottom: 12.3rem;
 }
 
-.primary-color{
-    color: #5385c1;
-    font-weight:300;
-}
-
 .s2_margin_tb{
     margin-top: 6rem;
     margin-bottom: 6rem;
+}
+
+.search-btn{
+    padding: 0 2.5rem!important;
 }
 
 .box{
@@ -112,15 +129,14 @@ h3{
     margin-inline-start: 3rem;
 }
 
-.mt-26{
-    margin-top: 2.6rem;
-}
-
 .fs-12{
     font-size: 1.2rem;
 }
 
-
+.special{
+    background-color: #5385c1;
+    color: #ffffff !important;
+}
 
 .grey {
     background-color: #5a5a5a;
@@ -135,16 +151,17 @@ h3{
 
 .mali {
     font-size: 0.8rem;
-    padding: 0.5rem 1.3rem!important;
+    padding: 12px 20px;
     display: inline;
 }
 
 .wide{
-    padding-right: 2rem!important;
-    padding-left: 2rem!important;
+    padding-right: 3rem!important;
+    padding-left: 3rem!important;
 }
 
 .button{ 
+    border: none;
     cursor: pointer;
     display: inline-block;
     font-weight: 600;
@@ -173,11 +190,11 @@ thead{
 }
 
 .fit{
-    padding: 0 4.7rem;
+    padding: 0 5.66rem;
 }
 
 .fps{
-    padding: 0.5rem 3.25rem;
+    padding: 0rem 4.18rem;
 }
 
 .inputw{
@@ -189,11 +206,7 @@ thead{
     width: 95.5%;
 }
 
-input[type="radio"]{
-    opacity: 0;
-}
-
-input[type="checkbox"]{
+input[type="radio"], input[type="checkbox"]{
     opacity: 0;
 }
 
@@ -231,15 +244,15 @@ input[type="radio"] + label:before {
     border-radius: 100%;
 }
 
-input[type="checkbox"] + label {
+input[type="checkbox"] + label  {
     text-decoration: none;
     color: #9a9a9a;
     cursor: pointer;
     display: inline-block;
     font-size: 1em;
     font-weight: 300;
-    padding-left: 38.5px;
-    padding-right: 12px;
+    padding-left: 2.4rem;
+    padding-right: 0.8rem;
     position: relative;
 }
 
@@ -274,8 +287,8 @@ input[type="checkbox"] + label:before {
 
 .image.left {
     float: left;
-    padding: 0 1.5 1.2rem 0;
-    top: 4px;
+    padding: 0 1.2rem 1.5rem;
+    top: 0.25rem;
     margin: 0;
     max-width: 40%;
 }
@@ -283,7 +296,7 @@ input[type="checkbox"] + label:before {
 .image.right {
     float: right;
     padding: 0 0 1.2rem 1.5rem;
-    top: 4px;
+    top: 0.25rem;
     margin: 0;
     max-width: 40%;
 }
@@ -291,7 +304,7 @@ input[type="checkbox"] + label:before {
 .boxx {
     border: solid 1px hsl(0, 0%, 60%, .3);
     margin-bottom: 2rem;
-    padding: 1.5rem;
+    padding: 1.7rem;
 }
 
 .marbot0{
@@ -311,6 +324,7 @@ code {
     border: solid 1px hsl(0, 0%, 60%, .3);
     color: #9a9a9a;
     font-size: 1rem;
+    margin: 0 4px;
 }
 
 .btn{
@@ -321,9 +335,15 @@ code {
     border: 0.2px solid #7d9cc1!important;
 }
 
-
+table tfoot, tfoot tr, tfoot tr td {
+    border: none;
+}
 
 @media screen and (max-width: 768px){
+    body{
+        text-align: center;
+    }
+
     .border-end{
         border-right: none!important;
         border-bottom: 0.5px solid #9a9a9a!important;
@@ -343,12 +363,29 @@ code {
         margin-bottom: 2rem;
     }
 
+    h2{
+        font-size: 2.5rem;
+    }
+
+   .fs-2{
+    font-size: 2.7rem!important;
+   }
+
+    h4{
+        font-size: 2rem;
+    }
+
+    div, li{
+        font-size: 1.7rem!important;
+    }
+
     .btn{
         width: 100%;
         line-height: 2.5;
+        margin-bottom: 1rem;
     }
 
-    .box{
+    .box, .s3_sliki, label, .selectw, .inputw {
         width: 100%;
     }
 
@@ -356,13 +393,57 @@ code {
         border-top: none!important;
     }
 
-    .s3_sliki{
-        width: 100%;
-    }
-
     .disn{
         display: none;
     }
 
+    input[type="radio"]:checked + label:before {
+        margin-left: 34%;
+    }
+
+    input[type="radio"] + label:before{
+        margin-left: 34%;
+    }
+
+    input[type="radio"] + label:nth-of-type(2)::before {
+        margin-left: 32%;
+    }
+
+    input[type="checkbox"] + label:before{
+        margin-left: 19%;
+    }
+
+    input[type="checkbox"]:checked + label:before{
+        margin-left: 21%;
+    }
+
+    .fit{
+        padding: 0 4.66rem;
+        font-size: 1rem;
+    }
+
+    .fps{
+        padding: 0 3.24rem;
+        font-size: 1rem;
+    }
+
+    ul, ol{
+        list-style-position: inside;
+        padding-left: 0;
+    }  
+
+    .mqtop{
+        margin-top: 1.5rem;
+    }
+
+    li i {
+        margin: 0.5rem;
+        font-size: 2rem;
+    }
+
+    .mis{
+        margin-inline-start: 0;
+    }
 
 }
+
